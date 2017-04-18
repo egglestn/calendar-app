@@ -17,5 +17,7 @@
 //= require turbolinks
 //= require moment
 //= require fullcalendar
+//= require full_calendar
+//= require date_range_picker
 //= require_tree .
 
