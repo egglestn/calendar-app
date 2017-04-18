@@ -27,8 +27,10 @@ gem "jquery-ui-rails"
 # Calendars
 gem "simple_calendar", "~> 2.0"
 gem "icalendar"
-gem 'fullcalendar-rails'
-gem 'momentjs-rails'
+gem "fullcalendar-rails"
+gem "momentjs-rails"
+gem "jbuilder"
+#gem "bootstrap-sass"
 
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem "turbolinks", "~> 5"
