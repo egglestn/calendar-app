@@ -30,8 +30,10 @@ gem "icalendar"
 gem "fullcalendar-rails"
 gem "momentjs-rails"
 gem "jbuilder"
+gem "rails-assets-tether"
+gem "bootstrap"
 gem "bootstrap-sass"
-gem 'bootstrap-daterangepicker-rails'
+gem "bootstrap-daterangepicker-rails"
 
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem "turbolinks", "~> 5"
