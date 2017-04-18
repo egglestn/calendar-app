@@ -22,7 +22,7 @@ gem "coffee-rails", "~> 4.2"
 gem "jquery-rails"
 
 # Use jQuery UI for widgets
-gem "jquery-ui-rails"
+# gem "jquery-ui-rails"
 
 # Calendars
 gem "simple_calendar", "~> 2.0"
@@ -30,7 +30,8 @@ gem "icalendar"
 gem "fullcalendar-rails"
 gem "momentjs-rails"
 gem "jbuilder"
-#gem "bootstrap-sass"
+gem "bootstrap-sass"
+gem 'bootstrap-daterangepicker-rails'
 
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem "turbolinks", "~> 5"
@@ -61,8 +62,8 @@ gem "newrelic_rpm"
 # Frontend
 gem "font-awesome-rails"
 gem "livingstyleguide", git: "https://github.com/Alliants/livingstyleguide.git", branch: "rails_5"
-gem "bourbon"
-gem "neat"
+#gem "bourbon"
+#gem "neat"
 
 # Pagination with kaminari: https://github.com/amatsuda/kaminari
 gem "kaminari"

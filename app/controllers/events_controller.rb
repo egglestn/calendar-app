@@ -25,6 +25,8 @@ class EventsController < ApplicationController
 
   def update
     @event.update(event_params)
+
+    render json: @event
   end
 
   def destroy

@@ -12,9 +12,9 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require jquery-ui
 //= require cocoon
 //= require turbolinks
+//= require bootstrap-sprockets
 //= require moment
 //= require fullcalendar
 //= require full_calendar
