@@ -15,5 +15,7 @@
 //= require jquery-ui
 //= require cocoon
 //= require turbolinks
+//= require moment
+//= require fullcalendar
 //= require_tree .
 

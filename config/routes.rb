@@ -8,7 +8,7 @@ Rails.application.routes.draw do
                sessions: 'users/sessions'
              }
 
-  resources :users, :samples
+  resources :users, :samples, :events
 
   resources :documents, except: :new
 
@@ -16,5 +16,8 @@ Rails.application.routes.draw do
   get "/dashboard", to: 'guest/dashboard#show', as: :guest_dashboard
 
   get "/simple", to: 'home#simple_cal'
+  get "/ical", to: 'home#i_cal'
+  get "/full", to: 'home#full_cal'
+  get "/home", to: 'home#show'
   root 'home#show'
 end

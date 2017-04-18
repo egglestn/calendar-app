@@ -24,8 +24,11 @@ gem "jquery-rails"
 # Use jQuery UI for widgets
 gem "jquery-ui-rails"
 
-# Simple calendar
+# Calendars
 gem "simple_calendar", "~> 2.0"
+gem "icalendar"
+gem 'fullcalendar-rails'
+gem 'momentjs-rails'
 
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem "turbolinks", "~> 5"
