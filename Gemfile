@@ -24,6 +24,9 @@ gem "jquery-rails"
 # Use jQuery UI for widgets
 gem "jquery-ui-rails"
 
+# Simple calendar
+gem "simple_calendar", "~> 2.0"
+
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem "turbolinks", "~> 5"
 # Use Redis adapter to run Action Cable in production

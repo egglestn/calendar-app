@@ -8,4 +8,8 @@ class HomeController < ApplicationController
     redirect_to(guest_dashboard_path) && return if current_user&.guest?
     redirect_to(admin_dashboard_path) && return if current_user
   end
+
+  def simple_cal
+  end
+
 end
